@@ -1,0 +1,10 @@
+class Solution {
+    public int findMatching(String text, String pat) {
+        // Code here
+        int num=text.indexOf(pat);
+        if(num==-1){
+            return -1;
+        }
+        return num;
+    }
+}
